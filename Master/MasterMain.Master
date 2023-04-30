@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterMain.master.cs" Inherits="FinalProject.MasterMain" %>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Pump House</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="../Content/aos.css" rel="stylesheet" />
+
+    <!-- MAIN CSS -->
+    <link href="../Content/tooplate-gymso-style.css" rel="stylesheet" />
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="/Main/Home.aspx">Pump House</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="/Main/Home.aspx" class="nav-link smoothScroll">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Main/About.aspx" class="nav-link smoothScroll">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Main/Contact.aspx" class="nav-link smoothScroll">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Main/Register.aspx" class="nav-link smoothScroll">Register</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="/Main/Admin.aspx" class="nav-link btn custom-btn bordered smoothScroll">Admin</a>
+                    </li>
+                </ul>
+
+                <ul class="social-icon ml-lg-3">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/tarlan-muradli-3aba37254" class="fa fa-linkedin"></a></li>
+                    <li><a target="_blank" href="https://twitter.com/t__mourad/" class="fa fa-twitter"></a></li>
+                    <li><a target="_blank" href="https://instagram.com/t__mourad?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <asp:ContentPlaceHolder ID="RenderBody" runat="server"></asp:ContentPlaceHolder>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="ml-auto col-lg-4 col-md-5">
+                    <p class="copyright-text">
+                        Copyright &copy; 2022 Tarlan Muradli
+                    </p>
+                </div>
+
+                <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                    <p class="mr-4">
+                        <i class="fa fa-envelope-o mr-1"></i>
+                        <a href="#">pumphouse@gmail.com</a>
+                    </p>
+
+                    <p><i class="fa fa-phone mr-1"></i>+994 77 311 03 55</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/aos.js"></script>
+    <script src="../Scripts/smoothscroll.js"></script>
+    <script src="../Scripts/custom.js"></script>
+
+</body>
+</html>
+
+
